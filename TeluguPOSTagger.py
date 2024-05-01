@@ -41,6 +41,6 @@ if __name__ == "__main__":
     pos_tagger = TeluguPOSTagger()
 
     # Test the POS tagger with a sample sentence
-    sentence = "నేను ఒక మంచి ప్రాంతంలో ఉంది."
+    sentence = "నేను ఇక్కడ హైదరాబాదు ప్రాంతంలో ఉన్నాను."
     tagged_sentence = pos_tagger.tag(sentence)
     print(tagged_sentence)
